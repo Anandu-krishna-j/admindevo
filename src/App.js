@@ -8,6 +8,7 @@ function App() {
     <Routes>
       <Route path='/' element={<LoginContainers />} />
       <Route path ='/instilist' element={<InstitutionsList/>}/>
+      <Route path='/addinsti' />
     </Routes>
   );
 }
